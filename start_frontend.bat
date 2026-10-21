@@ -1,0 +1,7 @@
+@echo off
+echo ========================================================
+echo Starting SmartBiz Analytics Frontend (Vite + React)
+echo ========================================================
+cd /d "%~dp0frontend"
+npm run dev -- --host 127.0.0.1 --port 5173
+pause
